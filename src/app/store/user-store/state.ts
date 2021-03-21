@@ -1,11 +1,11 @@
 export interface State{
-    data : any;
-    loading:boolean;
+    data: any;
+    loading: boolean;
     error: string;
 }
 
 export const initalState: State = {
-    data:null,
-    loading:false,
-    error:''
-}
+    data: null,
+    loading: false,
+    error: ''
+};

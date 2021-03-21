@@ -15,10 +15,10 @@ export class UserEffects{
             this.getUser()
             .pipe(
                 map(
-                   (data: any) =>
+                   data =>
                     new featureActions.LoadSuccessAction({data})
                 ),
-                catchError((error: string) =>
+                catchError(error =>
                    of(new featureActions.LoadFailureAction({error}))
                 )
             )
