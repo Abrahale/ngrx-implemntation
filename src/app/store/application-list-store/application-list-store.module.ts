@@ -5,9 +5,7 @@ import { ApplicationListEffects } from './effects';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 @NgModule({
-    declarations: [
-
-    ],
+    declarations: [],
     imports: [
         CommonModule,
         StoreModule.forFeature('application-list', featureReducer),
