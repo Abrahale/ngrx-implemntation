@@ -1,11 +1,11 @@
-import * as UserState from './state';
-import * as UserActions from './actions';
-import * as UserSelectors from './selectors';
+import * as UserStoreState from './state';
+import * as UserStoreActions from './actions';
+import * as UserStoreSelectors from './selectors';
 
 export {
-    UserState,
-    UserActions,
-    UserSelectors
+    UserStoreState,
+    UserStoreActions,
+    UserStoreSelectors
 };
 
 export { UserStoreModule} from './user-store.module';
