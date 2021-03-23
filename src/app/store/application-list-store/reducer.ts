@@ -24,5 +24,7 @@ export function featureReducer(state = initalState, action: Actions): State{
                 loading: false,
                 error: action.payload.error
             };
+
+            default: return state;
     }
 }
